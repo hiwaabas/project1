@@ -1,0 +1,49 @@
+body {
+    margin: 30px;
+    background-color: #E9E9E9;
+  }
+  
+  div.polaroid {
+    width: 284px;
+    padding: 10px 10px 20px 10px;
+    border: 1px solid #BFBFBF;
+    background-color: white;
+    box-shadow: 10px 10px 5px #aaaaaa;
+  }
+  
+  div.rotate_right {
+    float: right;
+    -ms-transform: rotate(7deg); 
+    -webkit-transform: rotate(7deg); 
+    transform: rotate(7deg);
+  }
+  
+  div.rotate_left {
+    float: right;
+    -ms-transform: rotate(8deg); 
+    -webkit-transform: rotate(8deg); 
+    transform: rotate(7deg);
+  } 
+
+  /* safari ie  */
+ /* Exact resolution */
+
+ /* .wrapper {
+    display: grid;
+    border: 1px solid ;
+    border-radius: 7px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-auto-rows: minmax(50px, auto);
+    background-color: aqua;
+
+  }
+  .box {
+    border: inherit;
+    margin: 5px;
+
+  
+  }
+  .one {
+  grid-column-start: 1;
+  grid-column-end: 4;
+  } */
